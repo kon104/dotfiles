@@ -1,0 +1,8 @@
+
+[user]
+	name = kon104
+
+[alias]
+	br = branch
+	co = checkout
+	st = status
