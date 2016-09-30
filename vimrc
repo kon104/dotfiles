@@ -11,11 +11,12 @@ syntax off		" カラー表示オフ
 "#  set options
 "#----------------------------------------------------------------------
 set tabstop=4
-set ruler			" ルーラーを表示
-set laststatus=2	" 常にステータス行を表示
-set wildmenu		" 入力中の補完候補をステータスラインに表示
+set ruler				" ルーラーを表示
+set laststatus=2		" 常にステータス行を表示
+set wildmenu			" 入力中の補完候補をステータスラインに表示
 set statusline=%<%f\ %m%r%h%w%y%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%b\ 0x%B\ \ %l,%c%V%8P
-					" ステータス行のフォーマット
+						" ステータス行のフォーマット
+set foldmethod=marker	" マーカーで折り畳み
 
 "#----------------------------------------------------------------------
 hi StatusLine term=NONE cterm=NONE ctermfg=black ctermbg=white
