@@ -13,3 +13,6 @@ PATH=$PATH:$HOME/bin
 export PATH
 # unset USERNAME
 
+LANG=ja_JP.UTF-8
+export LANG
+
